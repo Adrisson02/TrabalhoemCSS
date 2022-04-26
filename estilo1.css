@@ -1,0 +1,167 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: aliceblue;
+    line-height: 1.6em;
+}
+.bolt{
+    background-color: rgb(77, 59, 59);
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 18px;     
+    text-decoration: none;     
+    color: #ffffff;     
+    border: #ffffff 1px solid;     
+    padding: 10px 20px;     
+    border-radius: 10px;     
+    margin-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.bolt:hover{
+    background-color: red;
+    color: #fff;
+}
+#red{
+    background-image: url('img0');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding:0 20px;
+}
+figure{
+    width: 1000px;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+img{
+    height: 140px;
+    width: 220px;
+}
+figcaption{
+    font-family: Papyrus, fantasy;
+}
+.teste{
+    background: rgb(37, 23, 23);
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+#container-1{
+    display: inline-block;
+}
+.price-box{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.jen2{
+    background-color: rgb(245, 243, 234);
+    color: black;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid rgb(255, 109, 109);
+} 
+.jen1{
+    background-color: rgb(61, 55, 55);
+    color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 900px;
+    padding: 5px;
+    border: 5px solid rgb(255, 109, 109);
+}
+.texto_01{
+    vertical-align: top;
+}
+.texto_02{
+    vertical-align: top;
+}
+.texto_03{
+    vertical-align: top;
+}
+.text-color{
+    background-color: #fff;
+    color: black;
+    font-family: Papyrus, fantasy;;
+}
+.vin{
+    background-color: rgb(209, 23, 23);
+    color: rgb(255, 255, 255);
+}
+.tali{
+    height: 340px;
+    width: 720px;
+}
+.ped{
+    height: 240px;
+    width: 420px;
+}
+.text-color{
+    float: left;
+ width: 30%;
+ padding: 8px;
+ box-sizing: border-box;
+}
+.col {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+   }
+   .price-bos {
+    background: rgb(127, 125, 125);
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+   }
+   .price-bos .header {
+    background-color: rgb(118, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   }
+   .price-bos .header.header-green {
+    background: #32a6ff;
+   }
+   .price-bos li {
+    padding: 20px;
+    border-bottom: 20px solid #bbbbbb;
+    text-align: center;
+   }
+   .emph{
+      font-family:'Courier New', Courier, monospace;
+   }
+   .btns{
+    background-color: rgb(77, 59, 59);
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 18px;     
+    text-decoration: none;     
+    color: #ffffff;     
+    border: #ffffff 1px solid;     
+    padding: 10px 20px;     
+    border-radius: 10px;     
+    margin-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.btns:hover{
+    background-color: red;
+    color: #fff;
+}
